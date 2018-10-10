@@ -1,0 +1,193 @@
+body{
+  background-color: black;
+  font-size: 15px;
+  font-family: 'Spectral', serif;
+
+}
+
+a{text-decoration: none;}
+
+.presentation{
+  text-align: center;
+
+
+}
+
+.container{
+  background-color: #fff;
+  width: 80%;
+  margin: 30px auto;
+  padding-bottom: 30px;
+
+
+
+}
+
+.fond {
+  height:350px;
+  background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.photoprofil{
+  margin: auto;
+  margin-top: -125px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+
+.photoprofil img{
+  width: 250px;
+}
+
+h1{
+  font-family: 'Notable', sans-serif;
+}
+
+.texte{
+  padding: 0 110px 10px;
+}
+
+p{
+  font-size: 20px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.btn-grad {
+  padding:10px 30px;
+  border-radius:5px;
+  color:#fff;
+  background-size:200% auto;
+  transition:0.5s all;
+  background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 51%, #E55D87 100%)
+}
+.btn-grad:hover { background-position: right center; }
+
+.bouton{
+  background-color: #333;
+  padding: 10px 30px;
+  border-radius: 5px;
+
+
+}
+
+
+
+
+
+
+
+.bloc2{
+ background-color: white;
+
+ border-radius: 0px;
+ box-shadow: 4px 4px 18px rgba(0,0,0,0.1);
+ text-align: center;
+ width: 80%;
+ margin: 30px auto;
+
+
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 25px;
+  font-size:20px
+}
+
+.list-inline i{
+      font-size: 25px;
+}
+
+a {
+    color: rgb(200,200,200);
+    text-decoration: none;
+}
+.facebook:hover i{
+  color:#3b5998;
+font-size:30px;
+transition: 0.5s all;
+}
+.facebook:hover{
+  color:#3b5998;
+font-size:25px;
+transition: 0.5s all;
+}
+.twitter:hover i{
+  color:#1da1f2;
+font-size:30px;
+transition: 0.5s all;
+  }
+
+.twitter:hover{
+  color:#1da1f2;
+font-size:25px;
+transition: 0.5s all;
+}
+
+.linkedin:hover i{
+  color:#0077b5;
+font-size:30px;
+transition: 0.5s all;
+  }
+
+  .linkedin:hover{
+    color:#0077b5;
+  font-size:25px;
+  transition: 0.5s all;
+  }
+
+  .instagram:hover i{
+    color:#0077b5;
+  font-size:30px;
+  transition: 0.5s all;
+    }
+
+    .instagram:hover{
+      color:#0077b5;
+    font-size:25px;
+    transition: 0.5s all;
+    }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 15px 5px 5px;
+    color: rgb(10,10,10);
+}
+
+.bloc3{
+ background-color: white;
+ border-radius: 0px;
+ box-shadow: 4px 4px 18px rgba(0,0,0,0.1);
+ text-align: center;
+ width: 80%;
+ margin: 30px auto;
+}
+.img_realisation{
+  display:flex;
+}
+.img_realisation div{
+  width:36%;
+  margin:7%;
+}
+.img_realisation img{
+ width: 100%;
+ padding: 10px;
+ margin: 15px;
+ transition-duration: 400ms;
+}
+.img_realisation img:hover{
+  transform: scale(1.1);
+}
